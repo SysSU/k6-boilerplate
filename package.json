@@ -12,7 +12,9 @@
   "scripts": {
     "build": "webpack",
     "test": "dotenv -e .env k6 run",
+    "test:all": "dotenv -e .env $PWD/testAll.sh",
     "buildAndTest": "yarn build && yarn test",
+    "buildAndTest:all": "yarn build && yarn test:all",
     "lint": "eslint \"./src/**/*.{js,ts,json}\"",
     "lint:fix": "yarn lint -- --fix"
   },
