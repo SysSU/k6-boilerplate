@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/SysSU/k6-boilerplate",
   "author": "Seldon Stone",
-  "license": "MIT",
+  "license": "Open Software License 3.0",
   "private": false,
   "engines": {
     "node": "18.16.1"
