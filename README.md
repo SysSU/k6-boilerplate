@@ -1,6 +1,28 @@
 # K6 Boilerplate
 
-This repo provides a boilerplate for perform performance testing using K6.
+This is a boilerplate for K6 performance testing using Typescript and a "node-like" environment. This is heavily based off of [Grafana's K6 Typescript Template](https://github.com/grafana/k6-template-typescript).
+
+- [K6 Boilerplate](#k6-boilerplate)
+  - [Advantages](#advantages)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [Install dependencies](#install-dependencies)
+  - [Folder Structure](#folder-structure)
+  - [Running the Tests](#running-the-tests)
+    - [Build and Run Tests at Same The Time](#build-and-run-tests-at-same-the-time)
+  - [Writing Tests](#writing-tests)
+  - [Helper Functions](#helper-functions)
+    - [K6 HTTP Wrapper Helper](#k6-http-wrapper-helper)
+  - [Pre-Commit Tasks](#pre-commit-tasks)
+  - [Transpiling and Bundling](#transpiling-and-bundling)
+
+
+## Advantages
+- Linting and Prettier support
+- Typescript support
+- Simple setup for building and running all tests at once
+- DotEnv file support
+- K6 HTTP wrapped inside helper function for easy cross-project changes
 
 ## Prerequisites
 
